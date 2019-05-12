@@ -150,7 +150,7 @@ body {
 .menu__item {
   text-decoration: none;
   color: #424242;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 1.125rem;
   padding: 0.7em 2.5em .7em 1em;
   cursor: pointer; }
@@ -166,6 +166,9 @@ body {
     align-items: center;
     cursor: initial;
     border-bottom: 1px solid #9e9e9e; }
+
+.menu__breadcrumb {
+  font-weight: bold; }
 
 .menu__trigger {
   display: inline-block;
